@@ -1,5 +1,6 @@
 # Child–Parent Program
 
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -47,10 +48,11 @@ int main()
 
     return 0;
 }
-
+```
 
 # FCFS Scheduling
 
+```c
 #include<stdio.h>
 int main()
 {
@@ -85,9 +87,11 @@ int main()
     printf("\nAverage Waiting Time -- %f", wtavg/n);
     printf("\nAverage Turnaround Time -- %f", tatavg/n);
 }
+```
 
 # Round Robin Scheduling
 
+```c
 #include<stdio.h>
 int main()
 {
@@ -142,9 +146,11 @@ int main()
     for(i=0;i<n;i++)
         printf("\t%d\t%d\t\t%d\t\t%d\n", i+1, ct[i], wa[i], tat[i]);
 }
+```
 
 # Producer–Consumer
 
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -207,3 +213,4 @@ int main()
         }
     }
 }
+```

@@ -1,6 +1,5 @@
 # Child–Parent Program
 
-```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -52,7 +51,6 @@ int main()
 
 # FCFS Scheduling
 
-```c
 #include<stdio.h>
 int main()
 {
@@ -90,7 +88,6 @@ int main()
 
 # Round Robin Scheduling
 
-```c
 #include<stdio.h>
 int main()
 {
@@ -148,7 +145,6 @@ int main()
 
 # Producer–Consumer
 
-```c
 #include<stdio.h>
 #include<stdlib.h>
 
